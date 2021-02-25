@@ -1,5 +1,7 @@
 # Práctica 1: HTML y CSS
 
+Se puede visualizar la práctica en el siguiente [**enlace**](https://victorrubia.github.io/SIBW_UGR/P1/portada.html)
+
 ## 1. Objetivos
 
 ```
