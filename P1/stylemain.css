@@ -1,6 +1,9 @@
+/* Establecemos el color de fondo de la página */
 body {
     background-color: rgb(148, 185, 192);
 }
+
+/* Aplicamos estilos al encabezado */
 
 h1 {
     color:rgb(212, 105, 5);
@@ -54,6 +57,10 @@ header {
     padding-bottom: 25px;
     padding-left: 25px;
 }
+
+/* Hasta aquí se tienen los estilos asociados al encabezado */
+
+/* Aplicamos estilos al contenido de la página tales como la barra lateral y la sección principal */
 
 .cuerpo {
     overflow:hidden;
@@ -125,6 +132,8 @@ h3 {
     color:blue;
     margin-bottom: 0%;
 }
+
+/* Aplicamos estilos al pie de página */
 
 .bottom {
     text-align: center;
