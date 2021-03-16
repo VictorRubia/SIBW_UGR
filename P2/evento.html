@@ -4,6 +4,7 @@
     <head>
         <title>Evento</title>
         <link rel="stylesheet" href="./css/styleevento.css"/>
+        <script src="js/comentarios.js"></script>
     </head>
     
     <body>
@@ -22,6 +23,52 @@
         <div class ="cuerpo">
             <!-- Dividido en el contenido principal y la barra lateral más abajo -->
             <div class="principal">
+                <div id ="myComments" class="comments">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div id="comentarios_">
+                        Comentarios
+                    </div>
+                    <section class="lista_comentarios">
+                        <div class="comentario">
+                            <h4>
+                                Juan C. Quesada
+                            </h4>
+                            <p class="texto_comentario">
+                                He conocido mucha gente nueva que comparte el querer explorar la ciudad. Buena organización, totalmente recomendable.
+                            </p>
+                            <p class="fecha_comentario">
+                                16/03/2021 11:14
+                            </p>
+                        </div>
+                        <div class="comentario">
+                            <h4>
+                                Magdalena Pozo
+                            </h4>
+                            <p class="texto_comentario">
+                                Mucha variedad de actividades en la ciudad de Granada, personal muy amable.
+                            </p>
+                            <p class="fecha_comentario">
+                                01/04/2021 18:44
+                            </p>
+                        </div>
+                    </section>
+
+                    <div class="form_comentario">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="user_name">
+                        
+                        <label for="mail">E-mail</label>
+                        <input type="text" id="mail" name="user_mail">
+
+                        <label for="msg">Comentario</label>
+                        <textarea id="msg" name="user_message" placeholder="Escribe aquí tu comentario" onkeyup="censurar(event)"></textarea>
+
+                        <input id="send" type="button" onclick="addComentario(event)" value="Enviar"/>
+
+                    </div>
+
+                </div>
+
                 <!-- Aquí se encuentra cada uno de los elementos de la entrada, tales como la información, la galería y la descripción -->
                 <div class="informacion">
                     <h2 id="titulo"> Tour Ojo de Granada </h2>
@@ -72,6 +119,7 @@
                     <a href="https://twitter.com/hashtag/granada"><img class="rrss" src="img/rrss/twitter.png"></a>
                     <a href="whatsapp://send?text=https://victorrubia.github.io/SIBW_UGR/P1/portada.html"><img class="rrss" src="img/rrss/whatsapp.png"></a>
                     <a href="evento_imprimir.html"><img class="rrss" src="img/rrss/printer.png"></a>
+                    <img class="boton_comentarios" src="./img/comments.png" alt="Comentarios" onclick="openNav()">
 
                 </div>
 

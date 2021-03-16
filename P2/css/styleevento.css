@@ -1,0 +1,301 @@
+body {
+    background-color: rgb(166, 209, 218);
+}
+
+h1 {
+    color:rgb(212, 105, 5);
+    text-align: center;
+    font-size: 3.8vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    border: 1px solid rgb(212, 105, 5);
+    padding: 0.7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    position:relative;
+    width: 98.5%;
+}
+
+.opciones {
+    width: 10%;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 1% 0%;
+    text-align: center;
+    font-size: 1.1vw;
+    opacity: 1;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 50px;
+    margin-top: 0%;
+}
+.opciones:hover{opacity: 0.6}
+
+.titulo {
+    padding: 100%;
+    margin-bottom: 0%;
+}
+
+.menu{
+    color: rgb(172, 84, 2);
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+#logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.cuerpo {
+    overflow:hidden;
+	padding-top:10px;
+    width: 100%;
+}
+
+.principal {
+    border: 1px solid rgb(212, 105, 5);
+	float: right;
+	width: 73%;
+	padding-bottom: 100%;
+	margin-bottom: -100%;
+    border-radius: 25px;
+    height: 75%;
+}
+
+#colaboradores{
+    color:rgb(212, 105, 5);
+    text-align: center;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lateral {
+    border: 1px solid rgb(212, 105, 5);
+    width: 25%;
+    height: 75%;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    padding-left: 1%;
+    border-radius: 25px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.bottom {
+    text-align: center;
+    border: 1px solid rgb(212, 105, 5);
+    color: rgb(212, 105, 5);
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.05vw;
+}
+
+h6 {
+    font-size: 1vw;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    color:rgb(38, 1, 139);
+}
+
+.informacion{
+    float: left;
+    margin-left: 3%;
+    width: 50%;
+}
+
+#titulo {
+    margin-left: 3%;
+    margin-bottom: 0%;
+    color: #af5438;
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+#organizador {
+    margin-left: 6%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: #af8938;
+    font-size: 1.3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+#fecha {
+    margin-left: 6%;
+    margin-top: 0%;
+    color: #4b3b18;
+    font-size: 0.85vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.galeria {
+    float: right;
+    margin-top: 0%;
+    margin-right: 3%;
+    margin-left: 2%;
+	width: 42%;
+	padding-top: 2%;
+	padding-bottom: 100%;
+	margin-bottom: -100%;
+}
+
+.fotos {
+    text-align: center;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    object-fit: cover;
+    position: relative;
+    font-size: 1.05vw;
+}
+
+.imagen {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.descripcion{
+    margin-top: 8%;
+    margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.05vw;
+}
+
+.rrss{
+    height: 5em;
+	width: 5em;
+    margin-right: 1%;
+}
+
+/* P2 */
+
+.boton_comentarios {
+    height: 5em;
+	width: 5em;
+    margin-right: 1%;
+}
+
+.boton_comentarios:hover {
+	filter:invert(100%);
+	transition: 0.5s;
+}
+
+.comments{
+    height: 100%;
+    color:rgb(0, 0, 0);
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(148, 185, 192, 0.95);
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.comments .closebtn{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+    color: black;
+}
+
+#comentarios_ {
+    text-align: center;
+    top: 0;
+    color: rgb(212, 105, 5);
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.lista_comentarios{
+    overflow-y: auto;
+    max-height: 65%;
+}
+
+h4{
+    margin-bottom: 0%;
+    margin-top: 1%;
+    color: #af8938;
+    font-size: 0.85vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.comentario {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 90%;
+    margin: 3%;
+    margin-left: 3%;
+    
+}
+
+.texto_comentario {
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fecha_comentario {
+    text-align: left;
+    margin-right: 5%;
+    font-size: x-small;
+    color: #4b3b18;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form_comentario {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 100px;
+    text-align: left;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 95%;
+    margin-left: 3%;
+}
+
+.form_comentario label{
+    margin-left: 5%;
+    width: 100%;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form_comentario textarea {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form_comentario input {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form_comentario form {
+    /* Centrar el formulario en la página */
+  margin: 0 auto;
+  /* Esquema del formulario */
+  padding: 1em;
+}
