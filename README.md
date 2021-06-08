@@ -5,7 +5,7 @@
 
 ## Práctica 1
 
-Pulse [aquí]([https://victorrubia.github.io/SIBW_UGR/P1/portada.html) para visualizar
+Pulse [aquí](https://victorrubia.github.io/SIBW_UGR/P1/portada.html) para visualizar
 
 ## Práctica 2
 
